@@ -1,0 +1,11 @@
+---
+
+rundeck_packages:
+  - java-1.8.0-openjdk
+  - rundeck
+
+rundeck_server_hostname: "rundeck-hostname"
+rundeck_server_port: 4440
+
+rundeck_server_name: "{{ rundeck_server_hostname }}"
+rundeck_server_url: "http://{{ rundeck_server_name }}"
